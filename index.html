@@ -2,14 +2,14 @@
 <html lang="en" manifest="manifest.appcache">
 <head>
 	<title>Shake It</title>
-	
+
 	<link rel="shortcut icon" href="images/favicon.png">
 	<meta charset="utf-8"/>
 	<meta name="description" content="" />
 	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0" />
 	<meta property="og:image" content="images/fb-share.png"/>
 	<meta property="og:title" content="Play Shake It Now"/>
-	
+
 	<!-- External Libraries -->
 	<script src="createjs/easeljs-0.5.0.min.js"></script>
 	<script src="createjs/preloadjs-0.2.0.min.js"></script>
@@ -18,8 +18,8 @@
 	<script src="js/viewporter-2.0.js"></script>
 	<script src="js/hammer.js"></script>
 	<script src="js/ColorFilter.js"></script>
-	<script src="js/audio-fx.js"></script>	
-	
+	<script src="js/audio-fx.js"></script>
+
 	<!-- Double Duck Libraries-->
 	<script src="js/ddjsutils.js"></script>
 	<script src="data/ProductDB.js"></script>
@@ -35,7 +35,7 @@
 			left: 0;
 			position: absolute;
 		}
-		
+
 		*{
 			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 		}
@@ -49,7 +49,7 @@
 	<div id="haxe:trace" style="display:none"></div>
 
 	<script src="ShakeIt.js"></script>
-	
+
   <script>
     // prevent double clicks
     (function() {
@@ -79,19 +79,6 @@
         lastY = y;
       }, true);
     }());
-
-    (function(w,d,o,u,pn,p,s,b){w[pn]=p;s=d.createElement('script');
-    s.async=1;s.src=p.baseUrl+u;b=d.getElementsByTagName(o)[0];b.parentNode.insertBefore(s,b);
-    })(window,document,'script','inappoffer.js','evmeParams',{
-      id:'ev.me.launcher',
-      baseUrl: (function(e){
-          e=((location.host.match(/(loc\.|test\.|stg\.)/)||[])[0]||'');
-          return e? '//static.' + e + 'flyapps.me/inappoffer/' : '//cdn0.flyapps.me/static/inappoffer/';
-      }()),
-      ga:'UA-16876190-35',
-      nthCallToShow: 2,
-      linkParams:'referrer=utm_source%3Dspil%26utm_medium%3Dsplash%26utm_campaign%3Dshk-c{{i}}'
-    });
   </script>
 </body>
 </html>
